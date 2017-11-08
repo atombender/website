@@ -24,9 +24,14 @@ toc:
 
 - title: Extending Kubernetes
   section:
-  - docs/concepts/api-extension/custom-resources.md
   - docs/concepts/api-extension/apiserver-aggregation.md
+  - docs/concepts/api-extension/custom-resources.md
   - docs/concepts/service-catalog/index.md
+  - title: Compute, Storage, and Networking Extensions
+    section:
+    - docs/concepts/cluster-administration/network-plugins.md
+    - docs/concepts/cluster-administration/device-plugins.md
+    - docs/concepts/cluster-administration/sysctl-cluster.md
 
 - title: Containers
   section:
@@ -44,7 +49,6 @@ toc:
     - docs/concepts/workloads/pods/init-containers.md
     - docs/concepts/workloads/pods/podpreset.md
     - docs/concepts/workloads/pods/disruptions.md
-    - docs/concepts/abstractions/pod-termination.md
   - title: Controllers
     section:
     - docs/concepts/workloads/controllers/replicaset.md
